@@ -4,7 +4,7 @@ Integrate Twitch channel point rewards directly with a user's Spotify player.
 Configure a channel point reward to accept a Spotify song URL, and enqueue
 the song in the user's current playing session.
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/SaxyPandaBear/TwitchSongRequests/ci.yml?style=for-the-badge) ![Onboarded](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Fonboarded) ![Total number of songs queued](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Ftotal) ![Queued last 30 days](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Frunning%3Fdays%3D30)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vulturie/TwitchSongRequests/ci.yml?style=for-the-badge) ![Onboarded](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Fonboarded) ![Total number of songs queued](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Ftotal) ![Queued last 30 days](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwitchsongrequests-production.up.railway.app%2Fstats%2Frunning%3Fdays%3D30)
 
 ---
 
@@ -29,7 +29,7 @@ the reward title! Thanks @rosethornttv for the feedback!
 1. Authorize the service with Spotify
 1. If it worked, you should see a `Subscribe` and `Revoke Access` button
 1. Click `Subscribe`. If successful, you should see the UI update accordingly
-1. Submit an [onboarding request](https://github.com/SaxyPandaBear/TwitchSongRequests/issues/new?assignees=&labels=onboarding&template=Onboarding-Form.yml&title=Onboarding+Request) on this GitHub project, and I will manually allowlist your Spotify account to let you access the service (this is a limitation on Spotify, not on me)
+1. Submit an [onboarding request](https://github.com/vulturie/TwitchSongRequests/issues/new?assignees=&labels=onboarding&template=Onboarding-Form.yml&title=Onboarding+Request) on this GitHub project, and I will manually allowlist your Spotify account to let you access the service (this is a limitation on Spotify, not on me)
 1. After you are onboarded, go to your Creator Dashboard > Viewer Rewards > Channel Points > Manage Rewards & Challenges
 1. Scroll down to find `Spotify Song Request` in the Custom Rewards section and enable the reward - you can edit the amount of channel points, too.
 1. That's all! Start submitting Spotify URLs with the channel point reward!
@@ -51,12 +51,12 @@ is to your own benefit!
 1. Open Spotify on your computer
 1. Navigate to your Twitch channel
 1. Start playing music on Spotify (the service needs an "active" player to work)
-1. Find your favorite song on Spotify, copy the URI - **(Now supports searching songs with keywords! [#218](https://github.com/SaxyPandaBear/TwitchSongRequests/issues/218))**
+1. Find your favorite song on Spotify, copy the URI - **(Now supports searching songs with keywords! [#218](https://github.com/vulturie/TwitchSongRequests/issues/218))**
 1. Navigate to the Twitch channel, and find the song request reward (the default title is `Spotify Song Request`)
 1. Submit the Spotify URI as part of the reward redemption, e.g.: https://open.spotify.com/track/6mfiGqZw4AqXA1nqo3EzIF
 1. If your Spotify player has queued the song, you're good!
 1. If your player did not queue the song, make sure you copied the URL correctly, and use the right Channel Point reward
-1. If you are pretty sure you didn't mess anything up, make an issue [here](https://github.com/SaxyPandaBear/TwitchSongRequests/issues/new?assignees=&labels=bug&template=User-Bug-Report.yml&title=%5BBug%5D%3A+%5BDescribe+the+issue%5D)
+1. If you are pretty sure you didn't mess anything up, make an issue [here](https://github.com/vulturie/TwitchSongRequests/issues/new?assignees=&labels=bug&template=User-Bug-Report.yml&title=%5BBug%5D%3A+%5BDescribe+the+issue%5D)
 1. If you want to allow your viewers to submit song requests for [explicit songs](https://support.spotify.com/us/article/explicit-content/), you have to opt in to this by updating your [preferences](https://twitchsongrequests-production.up.railway.app/preferences)
 1. If you want to limit the length of the songs chatters can submit, specify the max song length in seconds in your [preferences](https://twitchsongrequests-production.up.railway.app/preferences). Any value less than or equal to zero means any song length is allowed
 1. If you want to display your song queue (current playing, and next two songs)
@@ -179,7 +179,7 @@ Well, the YouTube API doesn't let you queue videos outside of an iframe player,
 which means I would need to embed the player inside my website. Which, I'm not
 necessariliy opposed to doing, but that wasn't the original point of this. 
 
-If you want this feature, react and comment on [this issue](https://github.com/SaxyPandaBear/TwitchSongRequests/issues/131)
+If you want this feature, react and comment on [this issue](https://github.com/vulturie/TwitchSongRequests/issues/131)
 
 ---
 
@@ -260,9 +260,9 @@ The response will look something like this:
       "broadcaster_type": "affiliate",
       "created_at": "2015-11-03T23:03:04Z",
       "description": "A description about the user",
-      "display_name": "SaxyPandaBear",
+      "display_name": "vulturie",
       "id": "1234567890",
-      "login": "saxypandabear",
+      "login": "vulturie",
       "offline_image_url": "https://some-image1.png",
       "profile_image_url": "https://some-image2.png",
       "type": "",

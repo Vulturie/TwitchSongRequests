@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
 	"go.uber.org/zap"
 )
 

@@ -1,4 +1,4 @@
-module github.com/saxypandabear/twitchsongrequests
+module github.com/vulturie/twitchsongrequests
 
 go 1.20
 

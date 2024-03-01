@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/testutil"
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/internal/testutil"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
 	"github.com/zmb3/spotify/v2"
 )
 

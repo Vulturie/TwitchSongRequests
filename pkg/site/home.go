@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/constants"
-	"github.com/saxypandabear/twitchsongrequests/internal/util"
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
+	"github.com/vulturie/twitchsongrequests/internal/constants"
+	"github.com/vulturie/twitchsongrequests/internal/util"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
 	"go.uber.org/zap"
 )
 

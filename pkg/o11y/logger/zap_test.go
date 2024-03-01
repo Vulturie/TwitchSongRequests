@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/logger"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"

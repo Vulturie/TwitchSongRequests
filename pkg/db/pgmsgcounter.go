@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/metrics"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/metrics"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

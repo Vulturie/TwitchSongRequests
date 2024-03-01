@@ -3,8 +3,8 @@ package util_test
 import (
 	"testing"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/util"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/internal/util"
 	"github.com/zmb3/spotify/v2"
 )
 

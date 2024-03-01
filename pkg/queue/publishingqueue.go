@@ -3,7 +3,7 @@ package queue
 import (
 	"context"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
 	"github.com/zmb3/spotify/v2"
 )
 

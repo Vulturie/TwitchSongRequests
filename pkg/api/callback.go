@@ -10,11 +10,11 @@ import (
 	"strings"
 
 	"github.com/nicklaw5/helix/v2"
-	"github.com/saxypandabear/twitchsongrequests/internal/util"
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/metrics"
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
-	"github.com/saxypandabear/twitchsongrequests/pkg/queue"
+	"github.com/vulturie/twitchsongrequests/internal/util"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/metrics"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
+	"github.com/vulturie/twitchsongrequests/pkg/queue"
 	"go.uber.org/zap"
 )
 
@@ -209,7 +209,7 @@ func IsValidReward(e *helix.EventSubChannelPointsCustomRewardRedemptionEvent, p 
 	return e != nil && strings.Contains(e.Reward.Title, SongRequestsTitle)
 }
 
-// DoNothingOnSuccess is a no-op to satisfy the function interface. See https://github.com/SaxyPandaBear/TwitchSongRequests/issues/133
+// DoNothingOnSuccess is a no-op to satisfy the function interface. See https://github.com/vulturie/TwitchSongRequests/issues/133
 func DoNothingOnSuccess(auth *util.AuthConfig,
 	userStore db.UserStore,
 	event *helix.EventSubChannelPointsCustomRewardRedemptionEvent,

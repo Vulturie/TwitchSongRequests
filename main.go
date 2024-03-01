@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"strconv"
 
-	"github.com/saxypandabear/twitchsongrequests/cmd/songrequests"
+	"github.com/vulturie/twitchsongrequests/cmd/songrequests"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

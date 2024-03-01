@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
 )
 
 var prefOnce sync.Once

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
-	"github.com/saxypandabear/twitchsongrequests/pkg/queue"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
+	"github.com/vulturie/twitchsongrequests/pkg/queue"
 	"github.com/zmb3/spotify/v2"
 )
 

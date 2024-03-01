@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/testutil"
-	"github.com/saxypandabear/twitchsongrequests/pkg/api"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/metrics"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/internal/testutil"
+	"github.com/vulturie/twitchsongrequests/pkg/api"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/metrics"
 )
 
 func TestCountMessages(t *testing.T) {

@@ -1,6 +1,6 @@
 package db
 
-import "github.com/saxypandabear/twitchsongrequests/pkg/preferences"
+import "github.com/vulturie/twitchsongrequests/pkg/preferences"
 
 type PreferenceStore interface {
 	GetPreference(string) (*preferences.Preference, error)

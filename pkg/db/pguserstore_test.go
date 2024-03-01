@@ -4,9 +4,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
-	"github.com/saxypandabear/twitchsongrequests/pkg/users"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
+	"github.com/vulturie/twitchsongrequests/pkg/users"
 )
 
 var userOnce sync.Once

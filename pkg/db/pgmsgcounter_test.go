@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/metrics"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/metrics"
 )
 
 var msgOnce sync.Once

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/util"
+	"github.com/vulturie/twitchsongrequests/internal/util"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/constants"
 	"github.com/stretchr/testify/assert"
+	"github.com/vulturie/twitchsongrequests/internal/constants"
 )
 
 func TestGetFromEnv(t *testing.T) {

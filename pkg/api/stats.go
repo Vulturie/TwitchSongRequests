@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/saxypandabear/twitchsongrequests/pkg/db"
+	"github.com/vulturie/twitchsongrequests/pkg/db"
 	"go.uber.org/zap"
 )
 

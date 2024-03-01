@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/saxypandabear/twitchsongrequests/pkg/users"
+	"github.com/vulturie/twitchsongrequests/pkg/users"
 	"golang.org/x/oauth2"
 )
 

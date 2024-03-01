@@ -18,12 +18,12 @@ import (
 	"github.com/nicklaw5/helix/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/saxypandabear/twitchsongrequests/internal/testutil"
-	"github.com/saxypandabear/twitchsongrequests/internal/util"
-	"github.com/saxypandabear/twitchsongrequests/pkg/api"
-	"github.com/saxypandabear/twitchsongrequests/pkg/o11y/metrics"
-	"github.com/saxypandabear/twitchsongrequests/pkg/preferences"
-	"github.com/saxypandabear/twitchsongrequests/pkg/users"
+	"github.com/vulturie/twitchsongrequests/internal/testutil"
+	"github.com/vulturie/twitchsongrequests/internal/util"
+	"github.com/vulturie/twitchsongrequests/pkg/api"
+	"github.com/vulturie/twitchsongrequests/pkg/o11y/metrics"
+	"github.com/vulturie/twitchsongrequests/pkg/preferences"
+	"github.com/vulturie/twitchsongrequests/pkg/users"
 )
 
 var (
